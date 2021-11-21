@@ -1,0 +1,41 @@
+Funktionen notifzieren DrivePage ändern -> aktualisiert dann auf FctPage, aber nicht umgekehrt
+
+Nach Verlust WLAN wird nicht automatisch neu angemeldet
+
+
+
+Während Lebenszeichen LOK_INFOs der drei Kanäle abfragen
+
+Funktionsstati nach einer Weile broken
+
+
+Manche NOtifikationen werden nicht beachtet, vielleicht kommen diese als Dreiermeldung
+z.B. Loksteuerung andere Lok, z.B. Notaus
+
+
+enn Schirm 3 - Daten erhalten - ist im Hintergrund einen Seite aktiv ...
+
+Adressmitlauschen verzögert; seit Hintergrundänderung?????
+
+Nach Anschluss von z21-App (vorher) und Neustart Watch:
+Verbinde mit Z21/DR5000 192.168.178.200@21105
+ < - == == NOT EVALUATED == == 08 00 a0 00 b2 02 40 0f
+ < - == == NOT EVALUATED == == 0800a000b2054008
+
+anderenmal:
+
+Verbinde mit Z21/DR5000 192.168.178.200@21105
+    - LAN_X_BC_TRACK_POWER_OFF / POWER_ON / PROGRAMMING_MODE / TRACK_SHORT_CIRCUIT / STOPPED / LOCO_INFO(subscribed) / TURNOUT_INFO
+   - Feedback RBUS
+   - Loconet messages, no loco / switch info
+   - Loconet feedback LAN_LOCONET_DETECTOR
+ < - == == NOT EVALUATED == == 0800a000b201602c
+
+ anderenmal:
+
+ Verbinde mit Z21/DR5000 192.168.178.200@21105
+-- - Mehrere Pakete in einem, noch auswertbar machen! -- -
+
+
+Loksteuerung im Sinne von Zielgeschwindigkeit
+
